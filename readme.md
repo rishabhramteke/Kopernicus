@@ -1,4 +1,4 @@
-#Programming challenge for Perception team member in Kopernikus
+#**Programming challenge for Perception team member in Kopernikus**
 
 comp_img.py is the main python file
 
