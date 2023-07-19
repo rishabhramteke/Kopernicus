@@ -19,6 +19,9 @@ min_contour_area = 250
 gaussian_blur_radius_list = [1,3,5,7,9,11]
 These values were found by analysis of first few image samples (trial/error method)
 • What you would suggest to implement to improve data collection of unique cases in future?
+Maintain an image registry. Establish a central registry or database that keeps track of collected images and their unique identifiers. This registry can be periodically checked to ensure that new images are not duplicates of existing ones.
+Collect images from multiple sources.
+Leverage machine learning algorithms
 
 • Any other comments about your solution?
 An image in the dataset was corrupted so I deleted it from my local dataset
