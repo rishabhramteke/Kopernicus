@@ -92,7 +92,7 @@ def remove_similar_looking_images_hashmap(path,dim,min_contour_area,gaussian_blu
             #     print(cv2.contourArea(c))
             
             if score==0:
-                os.remove(pathnew+file_list[i])
+                os.remove(path+file_list[i])
                 continue
             elif len(hash_map) ==0:
                 hash_map[int(score)]=i
@@ -101,7 +101,7 @@ def remove_similar_looking_images_hashmap(path,dim,min_contour_area,gaussian_blu
                 for s in range(int(score)-min_contour_area,int(score)+min_contour_area):
                     if s in hash_map:
                         check=False
-                        os.remove(pathnew+file_list[i])
+                        os.remove(path+file_list[i])
                         break
                 if check:
                     hash_map[int(score)]=i
