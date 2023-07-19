@@ -1,10 +1,9 @@
 #**Programming challenge for Perception team member in Kopernikus**
 
-main.py is the main python file
-
+main.py is the main python file. <br />
 imaging_interview.py contains image comparision functions
 
-Question & Answers
+**Question & Answers**
 
 • What did you learn after looking on our dataset? <br />
 It seems like image data from security or surveillance cameras.
